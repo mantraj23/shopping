@@ -1,0 +1,69 @@
+
+.chatContainer {
+  width: 250px;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url(https://www.shutterstock.com/image-vector/social-media-sketch-vector-seamless-600nw-1660950727.jpg);
+}
+
+.chathead{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   font-size:large;
+   align-items: center;
+}
+
+.chatbtn{
+    background-color: rgb(5, 61, 5);
+    color: white;
+}
+
+.messageContainer {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  padding: 16px;
+  padding-bottom: 50px;
+  -webkit-overflow-scrolling: touch;
+}
+.messageContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.messageContainer {
+  scrollbar-width: none; /* Hide scrollbar */
+}
+
+.messageBubble {
+  max-width: 70%;
+  padding: 8px;
+  border-radius: 16px;
+  margin-bottom: 8px;
+  background-color: #dcf8c6;
+  align-self: flex-end;
+  word-break: break-all;
+}
+.inputContainer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 8px;
+  background-color: rgb(208, 236, 208);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inputField {
+  height: 40px;
+  margin-right: 4px;
+  border: 1px solid rgb(5, 61, 5) ;
+}
+
+.sendbtn{
+    background-color: rgb(5, 61, 5) ;
+    color:white;
+}

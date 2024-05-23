@@ -1,0 +1,9 @@
+.foo{
+    margin-top: 100px;
+    position: relative;
+}
+@media screen and (max-width:800px) {
+    .foo {
+        margin-top: 600px;
+    }  
+}
