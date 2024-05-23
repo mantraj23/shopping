@@ -83,6 +83,7 @@ export const renderCarousel = (title, data) => {
                   border: 0.5,
                   borderRadius: "10%",
                   borderColor: "#B1AAAE",
+                  textDecoration: "none",
                 }}
               >
                 <img
@@ -92,6 +93,7 @@ export const renderCarousel = (title, data) => {
                     width: "75%",
                     height: "30vh",
                     margin: "auto",
+                    textDecoration:"none",
                   }}
                 />
                 <h2 style= {{fontWeight:"bold"}} >{data.title}</h2>
